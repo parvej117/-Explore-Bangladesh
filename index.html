@@ -1,0 +1,456 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Bangladesh — বাংলাদেশের বিভাগ, জেলা, উপজেলা, ইতিহাস, সংস্কৃতি ও দর্শনীয় স্থান জানুন।">
+    <title>Explore Bangladesh | বাংলাদেশের সম্পূর্ণ গাইড</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">
+        <span class="logo-icon">🇧🇩</span>
+        <span>
+            <strong>Explore <b>Bangladesh</b></strong>
+            <small>Your Complete Bangladesh Guide</small>
+        </span>
+    </a>
+
+    <nav class="nav">
+        <a href="#home">হোম</a>
+        <a href="#divisions">বিভাগ</a>
+        <a href="#districts">জেলা</a>
+        <a href="#upazilas">উপজেলা</a>
+        <a href="#articles">তথ্যভাণ্ডার</a>
+        <a href="#feedback">মতামত</a>
+        <a href="#login">লগইন</a>
+        
+        <button type="button" id="language-toggle" class="language-button">
+             English
+        </button>
+
+    </nav>
+</header>
+
+<main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">এক দেশ, হাজার গল্প</p>
+            <h1>Explore <span>Bangladesh</span></h1>
+
+            <p class="hero-description">
+                বাংলাদেশের প্রতিটি বিভাগ, জেলা, উপজেলা, ইতিহাস,
+                সংস্কৃতি ও পর্যটন স্থান আবিষ্কার করুন।
+            </p>
+
+            <form class="search-box" action="#districts" method="get">
+                <label class="sr-only" for="site-search">
+                    জেলা, উপজেলা বা দর্শনীয় স্থান খুঁজুন
+                </label>
+                <input
+                    id="site-search"
+                    type="search"
+                    name="q"
+                    placeholder="কী খুঁজতে চান? যেমন: সিলেট, জাফলং, ঢাকা..."
+                >
+                <button type="submit">খুঁজুন ↗</button>
+            </form>
+
+            <div class="stats">
+                <a href="#divisions" class="stat">
+                    <span>🌿</span>
+                    <strong>৮</strong>
+                    <small>বিভাগ</small>
+                </a>
+                <a href="#districts" class="stat">
+                    <span>📍</span>
+                    <strong>৬৪</strong>
+                    <small>জেলা</small>
+                </a>
+                <a href="#upazilas" class="stat">
+                    <span>🏛️</span>
+                    <strong>৪৯৫+</strong>
+                    <small>উপজেলা</small>
+                </a>
+                <a href="#articles" class="stat">
+                    <span>📚</span>
+                    <strong>হাজারো</strong>
+                    <small>তথ্য ও ইতিহাস</small>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories section-dark">
+        <div class="section-heading">
+            <h2>জনপ্রিয় বিভাগ</h2>
+            <a href="#divisions" class="see-all">সব বিভাগ দেখুন →</a>
+        </div>
+
+        <div class="category-grid">
+            <a class="category-card" href="#cox-details">
+                <img src="/img/images (2).jpg" alt="সমুদ্রসৈকত">
+                <span class="category-icon">🏖️</span>
+                <h3>পর্যটন</h3>
+                <p>সমুদ্র, পাহাড় ও প্রকৃতি</p>
+            </a>
+
+            <a class="category-card" href="#articles">
+                <img src="/img/images.jpg" alt="ঐতিহাসিক স্থাপনা">
+                <span class="category-icon">🏛️</span>
+                <h3>ইতিহাস ও ঐতিহ্য</h3>
+                <p>প্রাচীন নিদর্শন ও স্থাপনা</p>
+            </a>
+
+            <a class="category-card" href="#culture">
+                <img src="/img/images (3).jpg" alt="সংস্কৃতি">
+                <span class="category-icon">🎭</span>
+                <h3>সংস্কৃতি</h3>
+                <p>লোকজ ঐতিহ্য ও উৎসব</p>
+            </a>
+
+            <a class="category-card" href="#food">
+                <img src="/img/খাবার১.jpg" alt="খাবার">
+                <span class="category-icon">🍲</span>
+                <h3>খাবার</h3>
+                <p>স্থানীয় স্বাদ ও ঐতিহ্য</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Divisions -->
+    <section class="section divisions" id="divisions">
+        <div class="section-heading">
+            <h2>বাংলাদেশের ৮টি বিভাগ</h2>
+            <p>বিভাগ নির্বাচন করে পরিচিতি ও জেলার তথ্য জানুন।</p>
+        </div>
+
+        <div class="division-grid">
+            <a href="#districts" class="division-card">
+                <span>🏙️</span><h3>ঢাকা</h3><p>রাজধানী ও ঐতিহ্য</p>
+            </a>
+            <a href="#districts" class="division-card">
+                <span>⛰️</span><h3>চট্টগ্রাম</h3><p>পাহাড় ও সমুদ্র</p>
+            </a>
+            <a href="#districts" class="division-card">
+                <span>🥭</span><h3>রাজশাহী</h3><p>আম ও প্রত্নতত্ত্ব</p>
+            </a>
+            <a href="#districts" class="division-card">
+                <span>🌳</span><h3>খুলনা</h3><p>সুন্দরবন ও নদী</p>
+            </a>
+            <a href="#districts" class="division-card">
+                <span>🚤</span><h3>বরিশাল</h3><p>নদী ও নৌপথ</p>
+            </a>
+            <a href="#sylhet-details" class="division-card">
+                <span>🍃</span><h3>সিলেট</h3><p>চা-বাগান ও পাহাড়</p>
+            </a>
+            <a href="#districts" class="division-card">
+                <span>🌾</span><h3>রংপুর</h3><p>কৃষি ও ঐতিহ্য</p>
+            </a>
+            <a href="#districts" class="division-card">
+                <span>🎶</span><h3>ময়মনসিংহ</h3><p>লোকসংস্কৃতি</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Districts -->
+    <section class="section section-light" id="districts">
+        <div class="section-heading">
+            <h2>জেলা ও উপজেলা খুঁজুন</h2>
+            <p>নিচের তালিকা থেকে জেলা নির্বাচন করুন।</p>
+        </div>
+
+        <div class="selector-panel">
+            <div class="form-group">
+                <label for="division-select">বিভাগ</label>
+                <select id="division-select">
+                    <option value="">বিভাগ নির্বাচন করুন</option>
+                    <option value="ঢাকা">ঢাকা</option>
+                    <option value="চট্টগ্রাম">চট্টগ্রাম</option>
+                    <option value="রাজশাহী">রাজশাহী</option>
+                    <option value="খুলনা">খুলনা</option>
+                    <option value="বরিশাল">বরিশাল</option>
+                    <option value="সিলেট">সিলেট</option>
+                    <option value="রংপুর">রংপুর</option>
+                    <option value="ময়মনসিংহ">ময়মনসিংহ</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="district-select">জেলা</label>
+                <select id="district-select">
+                    <option value="">জেলা নির্বাচন করুন</option>
+                    <option value="সিলেট">সিলেট</option>
+                    <option value="মৌলভীবাজার">মৌলভীবাজার</option>
+                    <option value="হবিগঞ্জ">হবিগঞ্জ</option>
+                    <option value="সুনামগঞ্জ">সুনামগঞ্জ</option>
+                    <option value="ঢাকা">ঢাকা</option>
+                    <option value="কক্সবাজার">কক্সবাজার</option>
+                    <option value="বগুড়া">বগুড়া</option>
+                    <option value="দিনাজপুর">দিনাজপুর</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Sylhet details -->
+        <article class="detail-panel" id="sylhet-details">
+            <img class="detail-image"
+                 src="/img/sillyt.jpg"
+                 alt="সবুজ বন ও প্রকৃতি">
+
+            <div class="detail-content">
+                <span class="tag">সিলেট বিভাগ</span>
+                <h2>সিলেট জেলা: ইতিহাস, প্রকৃতি ও ঐতিহ্য</h2>
+
+                <p>
+                    সিলেট বাংলাদেশের উত্তর-পূর্বাঞ্চলের একটি পরিচিত জেলা।
+                    চা-বাগান, পাহাড়, নদী, জলাভূমি, ধর্মীয় ঐতিহ্য এবং
+                    স্বতন্ত্র আঞ্চলিক সংস্কৃতি এ অঞ্চলের পরিচয়ের অংশ।
+                </p>
+
+                <h3>ইতিহাস ও ঐতিহ্য</h3>
+                <p>
+                    সিলেট অঞ্চলের ইতিহাসে প্রাচীন জনপদ, সুফি ঐতিহ্য,
+                    চা-শিল্প ও আঞ্চলিক সংস্কৃতির গুরুত্বপূর্ণ ভূমিকা রয়েছে।
+                    হযরত শাহজালাল (রহ.) ও হযরত শাহপরান (রহ.)-এর
+                    স্মৃতিবিজড়িত স্থানগুলো সিলেটের ধর্মীয় ঐতিহ্যের অংশ।
+                </p>
+
+                <h3>সিলেট জেলার উপজেলা</h3>
+                <ul class="upazila-list">
+                    <li>সিলেট সদর</li><li>দক্ষিণ সুরমা</li>
+                    <li>বিশ্বনাথ</li><li>ওসমানীনগর</li>
+                    <li>বালাগঞ্জ</li><li>বিয়ানীবাজার</li>
+                    <li>গোলাপগঞ্জ</li><li>জকিগঞ্জ</li>
+                    <li>কানাইঘাট</li><li>জৈন্তাপুর</li>
+                    <li>কোম্পানীগঞ্জ</li><li>গোয়াইনঘাট</li>
+                    <li>ফেঞ্চুগঞ্জ</li>
+                </ul>
+
+                <h3>দর্শনীয় স্থান</h3>
+                <div class="place-grid">
+                    <article class="place-card">
+                        <h4>জাফলং</h4>
+                        <p>পাহাড়, নদী ও পাথরের মনোরম প্রাকৃতিক দৃশ্য।</p>
+                    </article>
+                    <article class="place-card">
+                        <h4>রাতারগুল</h4>
+                        <p>মিঠাপানির জলাবন ও নৌভ্রমণের পরিচিত স্থান।</p>
+                    </article>
+                    <article class="place-card">
+                        <h4>বিছানাকান্দি</h4>
+                        <p>পাহাড়ি জলধারা ও পাথুরে ভূদৃশ্য।</p>
+                    </article>
+                    <article class="place-card">
+                        <h4>শাহজালাল (রহ.)-এর মাজার</h4>
+                        <p>সিলেটের গুরুত্বপূর্ণ ধর্মীয় ও ঐতিহাসিক স্থান।</p>
+                    </article>
+                </div>
+
+                <h3>স্থানীয় খাবার ও সংস্কৃতি</h3>
+                <p>
+                    সাতকরা দিয়ে রান্না, মাছের নানা পদ, স্থানীয় পিঠা,
+                    সিলেটি ভাষা ও লোকসংগীত এ অঞ্চলের পরিচিত ঐতিহ্যের অংশ।
+                </p>
+
+                <h3>ভ্রমণ পরামর্শ</h3>
+                <p>
+                    যাত্রার আগে আবহাওয়া ও স্থানীয় পরিবহন সম্পর্কে জেনে নিন।
+                    নৌভ্রমণে নিরাপত্তা মেনে চলুন এবং প্রাকৃতিক স্থান পরিষ্কার রাখুন।
+                </p>
+
+                <a class="button" href="#feedback">সিলেট সম্পর্কে মতামত দিন</a>
+            </div>
+        </article>
+    </section>
+
+    <!-- Upazilas -->
+    <section class="section" id="upazilas">
+        <div class="section-heading">
+            <h2>উপজেলা তথ্যভাণ্ডার</h2>
+            <p>উপজেলার ইতিহাস, বাজার, দর্শনীয় স্থান ও স্থানীয় ঐতিহ্য এখানে যুক্ত করা যাবে।</p>
+        </div>
+
+        <div class="info-notice">
+            <span>📍</span>
+            <div>
+                <h3>নিজের উপজেলা খুঁজুন</h3>
+                <p>উপজেলা নির্বাচন ও সংশ্লিষ্ট তথ্য স্বয়ংক্রিয়ভাবে দেখাতে JavaScript প্রয়োজন হবে।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Articles -->
+    <section class="section section-light" id="articles">
+        <div class="section-heading">
+            <h2>সাম্প্রতিক নিবন্ধ</h2>
+            <p>বাংলাদেশের দর্শনীয় স্থান ও ইতিহাস সম্পর্কে জানুন।</p>
+        </div>
+
+        <div class="article-grid">
+            <article class="article-card" id="cox-details">
+                <img src="/img/কক্সবাজার সমুদ্রসৈকত.webp" alt="সমুদ্র">
+                <div class="article-body">
+                    <span class="tag">পর্যটন</span>
+                    <h3>কক্সবাজার সমুদ্রসৈকত</h3>
+                    <p>বাংলাদেশের জনপ্রিয় সমুদ্রভ্রমণ গন্তব্য এবং উপকূলীয় সৌন্দর্যের পরিচিত স্থান।</p>
+                    <a href="#cox-details" class="read-more">বিস্তারিত পড়ুন →</a>
+                </div>
+            </article>
+
+            <article class="article-card">
+                <img src="/img/সুন্দরবন.jpg" alt="সবুজ বন">
+                <div class="article-body">
+                    <span class="tag">প্রকৃতি</span>
+                    <h3>সুন্দরবন</h3>
+                    <p>ম্যানগ্রোভ বন, নদী ও সমৃদ্ধ জীববৈচিত্র্যের অনন্য প্রাকৃতিক অঞ্চল।</p>
+                    <a href="#feedback" class="read-more">মতামত দিন →</a>
+                </div>
+            </article>
+
+            <article class="article-card">
+                <img src="/img/images.jpg" alt="ঐতিহাসিক স্থাপনা">
+                <div class="article-body">
+                    <span class="tag">ইতিহাস</span>
+                    <h3>মহাস্থানগড়</h3>
+                    <p>প্রাচীন বাংলার ইতিহাস ও প্রত্নতাত্ত্বিক ঐতিহ্যের গুরুত্বপূর্ণ নিদর্শন।</p>
+                    <a href="#feedback" class="read-more">মতামত দিন →</a>
+                </div>
+            </article>
+
+            <article class="article-card">
+                <img src="/img/জাতীয় স্মৃতিসৌ.jpg" alt="প্রকৃতি">
+                <div class="article-body">
+                    <span class="tag">ঐতিহ্য</span>
+                    <h3>জাতীয় স্মৃতিসৌ</h3>
+                    <p>বাংলাদেশের মুক্তিযুদ্ধের শহীদদের স্মরণে নির্মিত জাতীয় স্মৃতিসৌধ।</p>
+                    <a href="#feedback" class="read-more">মতামত দিন →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Culture -->
+    <section class="section section-dark" id="culture">
+        <div class="section-heading">
+            <h2>বাংলাদেশের সংস্কৃতি ও ঐতিহ্য</h2>
+        </div>
+        <p>
+            লোকসংগীত, ভাষা, উৎসব, হস্তশিল্প, ঐতিহাসিক স্থাপনা
+            ও আঞ্চলিক জীবনধারা বাংলাদেশের সাংস্কৃতিক বৈচিত্র্য তুলে ধরে।
+        </p>
+    </section>
+
+    <!-- Food -->
+    <section class="section" id="food">
+        <div class="section-heading">
+            <h2>বাংলাদেশের স্থানীয় খাবার</h2>
+        </div>
+        <p>
+            অঞ্চলভেদে মাছ, ভর্তা, পিঠা, মিষ্টি এবং বিভিন্ন ঐতিহ্যবাহী
+            খাবারের স্বাদ ও প্রস্তুতপ্রণালিতে বৈচিত্র্য রয়েছে।
+        </p>
+    </section>
+
+    <!-- Login -->
+    <section class="section section-light" id="login">
+        <div class="section-heading">
+            <h2>লগইন করুন</h2>
+            <p>আপনার অ্যাকাউন্টে প্রবেশ করুন।</p>
+        </div>
+
+        <form class="form-card">
+            <div class="form-group">
+                <labeধl for="login-email">ইমেইল অথবা মোবাইল নম্বর</label>
+                <input id="login-email" type="text" placeholder="ইমেইল বা ফোন নম্বর" required>
+            </div>
+            <div class="form-group">
+                <label for="login-password">পাসওয়ার্ড</label>
+                <input id="login-password" type="password" placeholder="পাসওয়ার্ড লিখুন" required>
+            </div>
+            <button class="button" type="submit">লগইন</button>
+            <p class="form-note">নতুন ব্যবহারকারী? অ্যাকাউন্ট তৈরির ফর্ম পরবর্তী ধাপে যুক্ত করা যাবে।</p>
+        </form>
+    </section>
+
+    <!-- Feedback -->
+    <section class="section" id="feedback">
+        <div class="section-heading">
+            <h2>আপনার মতামত দিন</h2>
+            <p>আপনার ভ্রমণের অভিজ্ঞতা অন্যদের সঙ্গে ভাগ করুন।</p>
+        </div>
+
+        <form class="form-card">
+            <div class="form-group">
+                <label for="visitor-name">আপনার নাম</label>
+                <input id="visitor-name" type="text" placeholder="আপনার নাম লিখুন" required>
+            </div>
+
+            <div class="form-group">
+                <label for="visitor-place">কোন স্থান সম্পর্কে মতামত?</label>
+                <select id="visitor-place" required>
+                    <option value="">স্থান নির্বাচন করুন</option>
+                    <option>সিলেট</option>
+                    <option>জাফলং</option>
+                    <option>রাতারগুল</option>
+                    <option>কক্সবাজার</option>
+                    <option>সুন্দরবন</option>
+                    <option>মহাস্থানগড়</option>
+                    <option>অন্যান্য</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="visitor-rating">রেটিং</label>
+                <select id="visitor-rating" required>
+                    <option value="5">★★★★★ — অসাধারণ</option>
+                    <option value="4">★★★★ — খুব ভালো</option>
+                    <option value="3">★★★ — ভালো</option>
+                    <option value="2">★★ — মোটামুটি</option>
+                    <option value="1">★ — উন্নতি প্রয়োজন</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="visitor-comment">আপনার মতামত</label>
+                <textarea id="visitor-comment" rows="5" placeholder="আপনার অভিজ্ঞতা লিখুন..." required></textarea>
+            </div>
+
+            <button class="button" type="submit">মতামত জমা দিন</button>
+        </form>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="#home" class="logo footer-logo">
+        <span class="logo-icon">🇧🇩</span>
+        <span>
+            <strong>Explore <b>Bangladesh</b></strong>
+            <small>Your Complete Bangladesh Guide</small>
+        </span>
+    </a>
+
+    <p>বাংলাদেশকে জানুন, দেশের সৌন্দর্য আবিষ্কার করুন।</p>
+
+    <div class="footer-links">
+        <a href="#home">হোম</a>
+        <a href="#divisions">বিভাগ</a>
+        <a href="#districts">জেলা</a>
+        <a href="#upazilas">উপজেলা</a>
+        <a href="#feedback">মতামত</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 Explore Bangladesh | Developer: MD. Masum Parvej
+    </p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
